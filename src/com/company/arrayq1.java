@@ -3,8 +3,15 @@ package com.company;
 /**
  * Created by Dean Hermanudin on 3/13/16.
  */
+
+/*1.4 Write a method to replace all spaces in a string with ‘%20’.
+ *You may assume that the string has sufficient space
+ * at the end of the string to hold the additional characters,
+ * and that you are given the “true” length of the string.
+ */
+
 public class arrayq1 {
-    public static String new20String(String s, int length)
+    public String new20String(String s, int length)
     {
         char[] content = s.toCharArray();
         int spaceCount  = 0;
